@@ -1,0 +1,89 @@
+body {
+  overflow-x: hidden;
+}
+
+.Heading{
+  background:linear-gradient(315deg, #093e56 0%, #2f4853 74%);
+  border: 1px solid rgb(48, 68, 64); 
+  width: 100%;
+  height:35px;
+}
+
+.NewPostText{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.UserChoice{
+  display: flex;
+  align-items: center;
+  color:#093e56;
+  font-style: italic;
+}
+
+.SelectOptionText{
+  font-size: 17px;
+}
+
+.SubHeadingBox{
+  border: 2px solid rgb(100, 163, 161);
+  background:linear-gradient(315deg, #287092 0%, #67c1ac 74%);
+  height:36px;
+}
+
+.QuestionHeading{
+  text-align: left;
+  font-weight: 600;
+  color:#093e56;
+}
+
+.Title{
+  width: 93%;
+  padding: 15px;
+  background-color: rgb(245, 249, 250);
+  height: 5px;
+}
+
+.ProblemDescribeText{
+  text-align: left;
+  font-weight: 500;
+  color:#093e56;
+  font-style: italic;
+  margin-top:auto;
+} 
+
+#area {
+  border: 2px solid #264f4f; 
+  padding: 10px; 
+  width: 95%;
+  margin-left: 25px;
+}
+
+#text{
+  width:95%;
+  border: 2px solid rgb(33, 65, 64);
+  background-color: rgb(245, 249, 250);
+  height:36px;
+}
+
+.button{
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.button button {
+  width: 100px; 
+  height: 30px; 
+  font-size: 18px; 
+  color:rgb(33, 65, 64);
+  background-color: #588ba3;
+}
+
+input{
+  margin: 10px;
+}
